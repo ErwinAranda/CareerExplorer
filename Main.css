@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+font  {
+    color:white;
+    position: fixed;
+    margin: 2% 40%;
+    width: 500px;
+    height: 200px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+table  {
+    color: white;
+}
+
+th {
+    font-size: 30px;
+}
+
