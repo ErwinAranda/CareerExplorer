@@ -40,8 +40,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2.5rem;
-    font-style:initial;
+    font-size: 2rem;
 }
 
 .fa-gem {
@@ -55,13 +54,12 @@
     text-align: center;
 }
 
-
 .navbar__item {
     height: 80px;
 }
 
 .navbar__links {
-    color: #08fff3;
+    color: #6ed1ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,24 +68,28 @@
     height: 100%;
 }
 
+.navbar__btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
 body{
     background-color: #3b3638;
     background-image: url(https://wallpaperaccess.com/full/1567665.png);
 }
 
 .navbar__links:link {
-    color: red;
+    color: rgb(109, 191, 247);
 }
 
-.navbar__links:visited {
-    color: rgb(116, 199, 255);
-}
 .navbar__links:hover {
     color: rgb(248, 239, 239);
 }
 
 .navbar__links:active {
-    color:rgb(40, 136, 226)
+    color:rgb(41, 143, 238)
 }
 
 .active, .navbar__links:hover {
@@ -125,7 +127,7 @@ body{
         top: -1000px;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 100vh;
         z-index: -1;
         background: #131313;
     }
@@ -157,11 +159,11 @@ body{
     }
 
     .navbar__links {
-        color: #08fff3;
+        color: #4abedb;
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
-        display: table;
+        display:table;
     }
 
     #mobile-menu {
@@ -186,7 +188,11 @@ body{
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translate(8px) rotate(-45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
 
