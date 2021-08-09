@@ -143,13 +143,14 @@ body{
     }
 
     #navbar__logo {
-        padding-left: 25px;
+        padding-left: 16px;
+        font-size: 2rem;
     }
 
     .navbar__toggle .bar {
-        width: 25px;
+        width: 40px;
         height: 3px;
-        margin: 5px auto;
+        margin: 10px auto;
         transition: all 0.3s ease;
         background: #fff;   
     }
