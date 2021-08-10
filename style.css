@@ -146,22 +146,7 @@ body{
         padding-left: 40px;
         font-size: 2rem;
     }
-
-    #navbar__logo {
-        background-color: #b8dddd;
-        background-image: linear-gradient(to top, #4abedb 0%, #ffb1 100%);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
-
+    
     .navbar__toggle .bar {
         width: 40px;
         height: 3px;
