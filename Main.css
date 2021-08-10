@@ -21,7 +21,22 @@ table  {
     color: white;
 }
 
+th:hover {
+    color: #4abedb;
+}
+
 th {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+
+
+img {
+    margin: 2% 25%;
+}
+
+.side__bored {
+    box-sizing: border-box;
+    width: 21%;
 }
 
