@@ -29,14 +29,45 @@ th {
     font-size: 35px;
 }
 
-
-
 img {
     margin: 2% 25%;
+    position:relative;
 }
 
 .side__bored {
     box-sizing: border-box;
-    width: 21%;
+    width: 25%;
 }
 
+.The__Plan {
+    font-size: 21px;
+}
+
+.Week_1 {
+    font-size: 21px;
+}
+
+.Week_2 {
+    font-size: 21px;
+}
+
+.Week__3_4 {
+    font-size: 21px;
+
+}
+
+.Week__5_6 {
+    font-size: 21px;
+}
+
+.Contact {
+    background: #3a3939;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
