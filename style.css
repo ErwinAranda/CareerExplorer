@@ -127,7 +127,7 @@ body{
         top: -1000px;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 100vh;
+        height: 50vh;
         z-index: -1;
         background: #131313;
     }
@@ -143,15 +143,16 @@ body{
     }
 
     #navbar__logo {
-        padding-left: 40px;
+        padding-left: 25px;
         font-size: 2rem;
+        max-width: 200px;
     }
-    
+
     .navbar__toggle .bar {
         width: 40px;
         height: 3px;
         margin: 10px auto;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease-in-out;
         background: #fff;   
     }
 

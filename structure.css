@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Reason {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+.Format {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+img {
+    width: 800px;
+}
