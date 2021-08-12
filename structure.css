@@ -25,3 +25,10 @@ h2 {
 img {
     width: 800px;
 }
+
+@media screen and (max-width: 960px) {
+    img {
+        width: 400px;
+        height: auto;
+    }
+}

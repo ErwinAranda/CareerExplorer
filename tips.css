@@ -1,0 +1,29 @@
+.Question {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2%;
+}
+
+.Section_one {
+    color: white;
+    text-align: center;
+    font-size:21px;
+}
+
+.Section_two {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+
+.wendy {
+    width: 500px;
+    height: 300px;
+}
+
+.paper {
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+}
