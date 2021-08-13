@@ -5,6 +5,21 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+button {
+    background-color: #4abedb;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    outline: 0;
+    border-style: none;
+
+}
+
+button:hover {
+    background-color: #269cb9;
+}
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -95,6 +110,10 @@ body{
 .active, .navbar__links:hover {
     color:white;
     transition: all 0.3s ease;
+}
+
+.text_link {
+    color: white;
 }
 
 .navbar__item .current {

@@ -1,3 +1,8 @@
+
+
+
+
+
 .Question {
     color: white;
     text-align: center;
@@ -21,51 +26,47 @@
     height: 500px;
 }
 
+.two_column {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+
+.image_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.image_description {
+    color: white;
+}
+
+
 .wendy {
-    width: 500px;
-    height: 300px;
+    width: 100%;
 }
 
 .paper {
-    width: 500px;
-    height: 300px;
-    margin-left: 200px;
-    margin-bottom: -100px;
+    width: 100%;
 }
 
-.Section_three {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-}
 
-.Part_two {
-    color: white;
-    font-size: 18px;
-    height: 100px;
-}
+
 
 .tip {
     color: white;
     text-align: center;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
 }
 
 
 
 @media screen and (max-width: 960px) {
-    .wendy {
-        width: 400px;
-        height: 300px;
-        margin-right: auto;
-        margin-left: auto;
-        margin: 4%;
-    }
-    
-    .paper {
-        width: 400px;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        margin: 4%;
+    .two_column {
+        flex-direction: column;
     }
 }
