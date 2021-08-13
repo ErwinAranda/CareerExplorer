@@ -17,6 +17,10 @@
     font-size: 21px;
 }
 
+.phone {
+    height: 500px;
+}
+
 .wendy {
     width: 500px;
     height: 300px;
@@ -26,4 +30,42 @@
     width: 500px;
     height: 300px;
     margin-left: 200px;
+    margin-bottom: -100px;
+}
+
+.Section_three {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Part_two {
+    color: white;
+    font-size: 18px;
+    height: 100px;
+}
+
+.tip {
+    color: white;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .wendy {
+        width: 400px;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 4%;
+    }
+    
+    .paper {
+        width: 400px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 4%;
+    }
 }
