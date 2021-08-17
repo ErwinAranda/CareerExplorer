@@ -82,4 +82,7 @@
     .two_column {
         flex-direction: column;
     }
+
+    .Contact {
+        font-size: 0.5rem;
 }
